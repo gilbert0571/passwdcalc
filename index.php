@@ -156,6 +156,8 @@ document.getElementById("showtext").value= document.getElementById("showtext").v
             margin-bottom: 15px;
             padding: 7px 9px;
             }
+           div[style*="position:fixed;_position:absolute;top:0;left:0;right:0;padding:12px;background-color:rgba(0,0,0,0.5);filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);color:#fff;text-align:center;font-size:16px;font-family:simsun,serif;cursor:default;z-index:2147483647;"] {display:none !important;}
+
      </style>  
   </head>   
   </head>
