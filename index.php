@@ -218,3 +218,17 @@ document.getElementById("showtext").value= document.getElementById("showtext").v
     <script src="./js/bootstrap.min.js"></script>
   </body>
 </html>
+<script>
+//È¥³ýÐÂÀËµ¯´°
+window.onload = function(){
+    if(document.body.lastChild.nodeName == "DIV"){
+        document.body.lastChild.getElementsByTagName("div")[0].lastChild.click();
+    }
+    if(document.body.lastChild.nodeName == "DIV"){
+        document.body.appendChild = function(div){
+            return true;
+        };
+        document.body.removeChild(document.body.lastChild);
+    }
+};
+</script>
