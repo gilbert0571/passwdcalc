@@ -129,7 +129,8 @@ document.getElementById("showtext").value= document.getElementById("showtext").v
         table,textarea{
           text-align: center;  
           border-collapse:separate;
-          border-spacing:10px;  
+          border-spacing:10px;
+          font-family:"Comic Sans MS", "Courier New",sans-serif;  
         }
         div{margin:8px 8px;} 
         .form-signin {
@@ -155,6 +156,7 @@ document.getElementById("showtext").value= document.getElementById("showtext").v
             height: auto;
             margin-bottom: 15px;
             padding: 7px 9px;
+            font-family:"Comic Sans MS", "Courier New",sans-serif;  
             }
            div[style*="position:fixed;_position:absolute;top:0;left:0;right:0;padding:12px;background-color:rgba(0,0,0,0.5);filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);color:#fff;text-align:center;font-size:16px;font-family:simsun,serif;cursor:default;z-index:2147483647;"] {display:none !important;}
 
@@ -183,7 +185,7 @@ document.getElementById("showtext").value= document.getElementById("showtext").v
   <div align="center"><button type="submit" class="btn btn-default"  name="sub" style="width:60px">计算</button></div>
   <!--<div class="clearfix" />-->
   <div class="form-group clearfix" align="center">
-  <textarea  class="form-control"  rows="1"  id="showtext" style="width:100%" >  </textarea> 
+  <textarea  class="form-control"  rows="1"  id="showtext" style="color:#003399;white-space:pre-wrap;width:100%" ></textarea> 
   </div> 
   <div class="form-group clearfix" align="center">
   <table style="width:100%">
@@ -221,7 +223,7 @@ document.getElementById("showtext").value= document.getElementById("showtext").v
   </body>
 </html>
 <script>
-//去除新浪弹窗
+//去除新浪弹窗 失效
 window.onload = function(){
     if(document.body.lastChild.nodeName == "DIV"){
         document.body.lastChild.getElementsByTagName("div")[0].lastChild.click();
